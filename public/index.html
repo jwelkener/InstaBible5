@@ -11,7 +11,7 @@
 
   <h1>InstaBible 5.0</h1>
   <h2>by John Welkener</h2>
-  <h3>Create a Shareworthy Bible verse in 3 easy steps.</h3><br>
+  <h3>Create a Shareworthy Bible verse in 3 easy steps.</h3>
 
   <form id="user-form">
     <p>Step 1. Choose a Bible verse.</p>
@@ -24,20 +24,20 @@
       </div>
     </div>
     <button type="button" id="randomVerseButton" onclick="getRandomVerse()">Random Verse</button>
-    <br><br>
+    <br>
     <p>Step 2. Choose a background image.</p>
     <input type="text" id="imageInput" placeholder="Enter image URL:" required /> <br><br>
     <div id='image-bank'></div><br>
     <div class="grid-container"></div>
-    <br>
     <p>Step 3. View your image below.</p>
-    <button class="download-button" id="generateImageButton">Download</button><br><br>
+    <br>
   </form>
-
   <div class="imageContainer">
-    <img src="https://raw.githubusercontent.com/jwelkener/InstaBible2/main/static/images/BlankPictureFrame.jpg" alt="Default Image" id="defaultImage">
+    <img src="images/white-square-black-border.png" alt="Default Image" id="defaultImage">
     <div class="{{ css_class }}"></div>
-  </div> <a id="download"></a>
+  </div> <a id="download"></a><br><br>
+
+  <button class="download-button" id="generateImageButton">Download</button>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
