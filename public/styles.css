@@ -1,0 +1,250 @@
+/* Define a class for the download button */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to make it big */
+    font-size: 20px; /* Adjust font size */
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Text color */
+    background-color: darkblue; /* Blue background color */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer;
+}
+
+/* Define a class for the random verse button */
+/* #randomVerseButton {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to make it big */
+    font-size: 20px; /* Adjust font size */
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Text color */
+    background-color: darkblue; /* Blue background color */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer;
+} */
+
+/* Change button color on hover */
+.download-button:hover {
+    background-color: green; /* Darker blue on hover */
+}
+
+#verseInput {
+    width: 400px;
+    font-size: 24px;
+}
+
+/* Adjust the width as needed */
+#imageInput {
+    width: 700px;
+    font-size: 18px;
+}
+
+/* Additional styles for better spacing (optional) */
+#user-form p {
+    margin-bottom: 10px;
+}
+
+#user-form button {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Brush Script MT', Bold, sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 25px;
+}
+
+p {
+    /* font-family: 'Rubik Doodle Shadow'; */
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* 21-40 words */
+.centered-verse, .verseText {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+/* 1-20 words */
+.short {
+    font-size: 30px;
+    top: 75%;
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+/* 31-50 words */
+.medium {
+    font-size: 20px;
+    top: 45%;
+    left: 50%;
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+/* 51-70 words */
+.long {
+    font-size: 15px;
+    top: 30%;
+    left: 50%;
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+/* 71 or more words */
+.extra-long {
+    font-size: 10px;
+    top: 15%;
+    left: 50%;
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+}
+
+.imageContainer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    align-items: center;
+}
+
+.image-row {
+    /* display: flex; */
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.image-row img {
+    margin-right: 10px; /* Adjust the margin to control the spacing between images */
+}
+
+.generatedImage {
+    position: relative;
+    align-items: center;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    text-align: center;
+    background-color:tan;
+}
+
+input {
+    width: 80%;
+    margin: 5px;
+}
+
+img {
+    position: relative;
+    align-items: center;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* display: none; */
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('https://raw.githubusercontent.com/jwelkener/InstaBible2/main/static/fonts/Shrikhand/Shrikhand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('https://github.com/jwelkener/InstaBible2/blob/main/static/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('https://github.com/jwelkener/InstaBible2/blob/main/static/fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik Doodle Shadow';
+    src: url('https://github.com/jwelkener/InstaBible2/blob/main/static/fonts/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf') format('truetype');
+    font-weight: normal;

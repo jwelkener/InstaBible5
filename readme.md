@@ -14,4 +14,7 @@ Express-PostgreSQL app created by John Welkener
 
 Final Capstone Project for the Springboard SEC (Software Engineering Career) Track, June 2023 cohort
 
-Mentors: Victor Miclovich
+Coding Mentors: 
+
+Victor Miclovich
+Paul Sherer
